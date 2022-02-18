@@ -1,0 +1,22 @@
+.board {
+    position: relative;
+    padding: 5px;
+
+    &-header {
+      display: flex;
+      justify-content: space-between;
+
+      &_score {
+        border-right: 1px solid black;
+        padding-right: 2px;
+      }
+
+      &_timer {
+        border-left: 1px solid black;
+        padding-left: 2px;
+      }
+    }
+
+    display: inline-flex;
+    flex-direction: column;
+}

@@ -1,0 +1,13 @@
+.control-panel {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+
+    &_button {
+      background-color: #fff;
+      border-color: #111;
+      border-width: 1px;
+      border-radius: 4px;
+      margin-bottom: 5px;
+    }
+}
